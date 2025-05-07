@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         youtube-adb (Optimized)
 // @namespace    https://github.com/cleondev/youtube-adb-optimized
-// @version      1.1
+// @version      1.2
 // @author       Cleon
 // @source       https://github.com/cleondev/youtube-adb-optimized
 // @description  Safely remove YouTube ads (UI banners, in-stream video ads, and overlays) with optimized performance and reliability.
