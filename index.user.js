@@ -12,8 +12,8 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=YouTube.com
 // @grant        none
 // @license      MIT
-// @downloadURL  https://github.com/cleondev/youtube-adb-optimized/blob/main/index.user.js
-// @updateURL    https://github.com/cleondev/youtube-adb-optimized/blob/main/index.user.js
+// @downloadURL https://update.greasyfork.org/scripts/535214/youtube-adb%20%28Optimized%29.user.js
+// @updateURL https://update.greasyfork.org/scripts/535214/youtube-adb%20%28Optimized%29.meta.js
 // ==/UserScript==
 
 (function() {
