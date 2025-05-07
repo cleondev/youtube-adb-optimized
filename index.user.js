@@ -64,11 +64,12 @@
     // Skip video ads: click only when skip button is available
     function attemptSkipAd() {
         if (!isAdPlaying()) return;
+        const video = document.querySelector('.ad-showing video') || document.querySelector('video.ad-showing');
         const skipBtn = document.querySelector('.ytp-ad-skip-button, .ytp-skip-ad-button, .ytp-ad-skip-button-modern');
         if (skipBtn) {
             skipBtn.click();
             skipBtn.dispatchEvent(new TouchEvent('touchstart', { bubbles: true, cancelable: true }));
-            skipBtn.dispatchEvent(new TouchEvent('touchend',   { bubbles: true, cancelable: true }));
+            skipBtn.dispatchEvent(new TouchEvent('touchend', { bubbles: true, cancelable: true }));
             log('Clicked skip button');
         }
     }
