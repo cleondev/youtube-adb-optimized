@@ -1,16 +1,10 @@
 // ==UserScript==
 // @name         youtube-adb (Optimized)
-// @name:zh-CN   YouTube去广告（优化版）
-// @name:zh-TW   YouTube去廣告（優化版）
-// @name:zh-HK   YouTube去廣告（優化版）
-// @name:zh-MO   YouTube去廣告（優化版）
 // @namespace    https://github.com/cleondev/youtube-adb-optimized
 // @version      1.1
 // @author       Cleon
 // @source       https://github.com/cleondev/youtube-adb-optimized
 // @description  Safely remove YouTube ads (UI banners, in-stream video ads, and overlays) with optimized performance and reliability.
-// @description:zh-CN   安全移除 YouTube 广告（UI横幅、视频广告以及弹窗），性能和稳定性优化。
-// @description:zh-TW   安全移除 YouTube 廣告（UI橫幅、視頻廣告以及彈窗），效能和穩定性優化。
 // @match        *://*.youtube.com/*
 // @exclude      *://accounts.youtube.com/*
 // @exclude      *://www.youtube.com/live_chat_replay*
